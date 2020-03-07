@@ -13,6 +13,7 @@ class ParkingLot:
         self.cars_in_slots = {}
         self.slots_for_cars = [None] * slots
         # Slot numbers: Ex [4,3,2,1,0]
+        # in reverse order, so that nearest slot 0..1..2 can be easily picked at 0(1) by pop
         self.available_slots = list(range(slots-1, -1, -1))
 
     def get_number_of_available_slots(self):
