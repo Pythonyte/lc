@@ -42,20 +42,25 @@ This section contains implementation of different Data Structures in Java.
 # LinkList
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>Island Perimeter</b>  <br>             [View](
+| 0 | <b></b>   |  [View]()
 
 # Arrays
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>Island Perimeter</b>  <br>             [View](
+| 0 | <b></b>   |  [View]()
 
 # Trie
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>Island Perimeter</b>  <br>             [View](
+| 0 | <b></b>   |  [View]()
 
 # Design Problems Python
 
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>Island Perimeter</b>  <br>             [View](
+| 0 | <b>Parking Lot</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-Parking-Lot)
+| 1 | <b>LRU Cache</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/LRUCache)
+| 2 | <b>DataStructure for add and search</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/add-and-search-word-data-structure-design)
+| 3 | <b>Compressed String Iterator</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/design-compressed-string-iterator)
+| 4 | <b>DataStructure for Insert Delete GetRandom O(1)</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/insert-delete-getrandom-o1)
+| 5 | <b>Stack that supports getMin(): O(1) time/space</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/min-stack)
