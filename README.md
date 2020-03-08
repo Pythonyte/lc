@@ -15,7 +15,7 @@ This section contains implementation of different Data Structures in Java.
 # Trees
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b>All nodes at K distance Binray Tree</b> |View|https://github.com/Pythonyte/lc/blob/master/all-nodes-distance-k-in-binary-tree
+| 0 | <b>All nodes at K distance Binray Tree</b> |View|(https://github.com/Pythonyte/lc/blob/master/all-nodes-distance-k-in-binary-tree)
 | 1 | <b>BST Iterator</b> |View|https://github.com/Pythonyte/lc/blob/master/binary-search-tree-iterator
 | 1 | <b>Boundary of Binary Tree</b> |View|https://github.com/Pythonyte/lc/blob/master/boundary-of-binary-tree
 | 1 | <b>Distance between two nodes in binary tree</b> |View|https://github.com/Pythonyte/lc/blob/master/find-distance-between-two-nodes-of-a-binary-tree
