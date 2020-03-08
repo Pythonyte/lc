@@ -17,7 +17,7 @@ class Solution:
         if node not in visited: 
             visited[node] = Node(node.val, None, None)
         return visited[node], visited
-        
+
     def copyRandomListWITHSPACE(self, head: 'Node') -> 'Node':
         if head is None: 
             return head

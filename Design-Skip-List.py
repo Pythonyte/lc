@@ -1,6 +1,6 @@
-https://www.geeksforgeeks.org/skip-list/
-https://leetcode.com/problems/design-skiplist/discuss/394679/Python-the-%22down%22-pointer-of-each-node-must-point-to-node-of-same-value-in-the-next-level
-https://leetcode.com/problems/design-skiplist/description/
+# https://www.geeksforgeeks.org/skip-list/
+# https://leetcode.com/problems/design-skiplist/discuss/394679/Python-the-%22down%22-pointer-of-each-node-must-point-to-node-of-same-value-in-the-next-level
+# https://leetcode.com/problems/design-skiplist/description/
 
 class Node:
     def __init__(self,val):

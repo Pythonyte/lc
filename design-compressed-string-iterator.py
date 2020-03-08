@@ -1,8 +1,8 @@
-https://leetcode.com/problems/design-compressed-string-iterator/description/
-Design String Decompress iterator class with next() and hasnext() methods  
-tes4t =>  
-Each next should print following seq.  
-t, e, s, s, s, s, t  
+# https://leetcode.com/problems/design-compressed-string-iterator/description/
+# Design String Decompress iterator class with next() and hasnext() methods
+# tes4t =>
+# Each next should print following seq.
+# t, e, s, s, s, s, t
 
 class StringIterator:
 
