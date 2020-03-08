@@ -56,8 +56,8 @@ s.inorderSuccessorPredeccsor(root1, root1.left.left)
 s.inorderSuccessorPredeccsor(root1, root1)
 
 
-OutPut
-Pred=50 | Node=55 | Succ=60 
-Pred=60 | Node=70 | Succ=None 
-Pred=None | Node=10 | Succ=20 
-Pred=30 | Node=50 | Succ=55 
+# OutPut
+# Pred=50 | Node=55 | Succ=60
+# Pred=60 | Node=70 | Succ=None
+# Pred=None | Node=10 | Succ=20
+# Pred=30 | Node=50 | Succ=55
