@@ -26,6 +26,17 @@ This section contains implementation of different Data Structures in Java.
 | 7 | <b>Recover Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/recoverTree)
 | 8 | <b>Spiral Order of binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/spiral_order_binary_tree)
 | 9 | <b>Check if BST</b> | [View](https://github.com/Pythonyte/lc/blob/master/validate-binary-search-tree)
+| 10 | <b>Level Order Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/binary-tree-level-order)
+| 11 | <b>In Order Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/binary-tree-inorder-traversal)
+| 12 | <b>Pre Order Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/binary-tree-preorder-traversal)
+| 13 | <b>Post Order Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/binary-tree-postorder-traversal)
+| 14 | <b>LCA Binary Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/lowest-common-ancestor-of-a-binary-tree)
+| 15 | <b>LCA Binary Search Tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/lowestCommonAncestorBST)
+| 16 | <b>maximum difference between node and ancestor</b> | [View](https://github.com/Pythonyte/lc/blob/master/maxAncestorDiff)
+| 17 | <b>nodes at distance k from a leaf</b> | [View](https://github.com/Pythonyte/lc/blob/master/print-nodes-distance-k-leaf-node)
+| 18 | <b>Populate next right pointer in perfect binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/populating-next-right-pointers-in-each-node)
+| 19 | <b>Populate next right pointer in unbalanced binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/populating-next-right-pointers-in-each-node-ii)
+| 20 | <b>Right View of binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/rightSideView)
 
 
 # LinkList
