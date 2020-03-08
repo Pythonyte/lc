@@ -68,6 +68,6 @@ This section contains implementation of different Data Structures in Java.
 | 7 | <b>Design-Tic-Tac-Toe</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-Tic-Tac-Toe.py)
 | 8 | <b>Design-Snake-Game</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-Snake-Game.py.py)
 | 9 | <b>Design-Trie</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-Trie.py)
-| 10 | <b>Design-Snake-Game</b>   |  [View](.py)
+| 10 | <b>Design-AutoSuggest</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-autosuggest.py)
 | 11 | <b>Design-Snake-Game</b>   |  [View](.py)
 
