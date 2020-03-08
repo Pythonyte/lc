@@ -1,6 +1,3 @@
-50.  Design Range set data structure which support 2 operations – AddInRangeSet and SearchInRangeSet  
-https://leetcode.com/problems/add-and-search-word-data-structure-design/description/
-
 class TrieNode():
     def __init__(self):
         self.children = {}

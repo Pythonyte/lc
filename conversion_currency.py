@@ -1,6 +1,6 @@
-Given a ratio of values like dollar/inr = 70, inr/euro = 50 and euro/yen = 40….and a new input like (dollar,yen)…
-find the value of dollar/yen if it exists.  
-
+# Given a ratio of values like dollar/inr = 70, inr/euro = 50 and euro/yen = 40….and a new input like (dollar,yen)…
+# find the value of dollar/yen if it exists.
+#
 
 class ConversionRatio:
     def __init__(self):

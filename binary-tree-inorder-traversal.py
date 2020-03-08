@@ -1,10 +1,10 @@
-https://leetcode.com/problems/binary-tree-inorder-traversal/description/
+# https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
     def push_lefts_in_stack(self, root):

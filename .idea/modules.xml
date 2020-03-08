@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/verifi/verifi.pipelines/.idea/Terraform.iml" filepath="$USER_HOME$/verifi/verifi.pipelines/.idea/Terraform.iml" />
+      <module fileurl="file://$USER_HOME$/expertly/infra.expertly/.idea/infra.expertly.iml" filepath="$USER_HOME$/expertly/infra.expertly/.idea/infra.expertly.iml" />
+      <module fileurl="file://$USER_HOME$/WPSites/infra.siegelgale/.idea/infra.siegelgale.iml" filepath="$USER_HOME$/WPSites/infra.siegelgale/.idea/infra.siegelgale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lc.iml" filepath="$PROJECT_DIR$/.idea/lc.iml" />
+      <module fileurl="file://$USER_HOME$/verifi/verifi.backend/.idea/verifi.backend.iml" filepath="$USER_HOME$/verifi/verifi.backend/.idea/verifi.backend.iml" />
+      <module fileurl="file://$USER_HOME$/verifi/verifi.frontend/.idea/verifi.frontend.iml" filepath="$USER_HOME$/verifi/verifi.frontend/.idea/verifi.frontend.iml" />
+      <module fileurl="file://$USER_HOME$/verifi/verifi.lw-infra/.idea/verifi.lw-infra.iml" filepath="$USER_HOME$/verifi/verifi.lw-infra/.idea/verifi.lw-infra.iml" />
+      <module fileurl="file://$USER_HOME$/verifi/verifi.registration-backend/.idea/verifi.registration-backend.iml" filepath="$USER_HOME$/verifi/verifi.registration-backend/.idea/verifi.registration-backend.iml" />
+    </modules>
+  </component>
+</project>

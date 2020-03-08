@@ -1,12 +1,14 @@
 """
 https://leetcode.com/problems/copy-list-with-random-pointer/description/
 # Definition for a Node.
+
+"""
 class Node:
     def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
         self.val = int(x)
         self.next = next
         self.random = random
-"""
+
 class Solution:
     ############### # Sol1 N-Space N-Time
     def get_cloned_node(self, node, visited):
@@ -16,7 +18,6 @@ class Solution:
             visited[node] = Node(node.val, None, None)
         return visited[node], visited
         
-    
     def copyRandomListWITHSPACE(self, head: 'Node') -> 'Node':
         if head is None: 
             return head

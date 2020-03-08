@@ -1,0 +1,59 @@
+<VirtualHost *:80>
+ServerName simplicityindex.internal.siegelgale.com
+DocumentRoot /var/www/html/simplicity/wwwroot
+
+<Directory /var/www/html/simplicity/wwwroot>
+     Options Indexes FollowSymLinks
+     AllowOverride All
+     Require all granted
+     Header set Access-Control-Allow-Origin "*"
+</Directory>
+
+    ProxyPassMatch   ^/2017/(.+) http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com/2017/$1
+    ProxyPassReverse ^/2017/     http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com/2017/
+    ProxyPass        /2017 http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com/
+    ProxyPassReverse /2017 http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com/
+
+
+ProxyPass /2017/(.+) http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com/$1
+ProxyPassReverse /2017 http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com
+
+ErrorLog /var/log/simplicity2017/error.log
+CustomLog /var/log/simplicity2017/access.log combined
+</VirtualHost>
+
+<VirtualHost *:443>
+#ServerName test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com                                                                                                                                          
+ServerName simplicityindex.internal.siegelgale.com
+DocumentRoot /var/www/html/simplicity2017/wwwroot
+
+<Directory /var/www/html/simplicity2017/wwwroot>
+     Options Indexes FollowSymLinks
+     AllowOverride All
+     Require all granted
+     Header set Access-Control-Allow-Origin "*"
+</Directory>
+
+ProxyPass /2017/(.+) http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com/$1
+ProxyPassReverse /2017 http://test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com
+
+ErrorLog /var/log/simplicity2017/error.log
+CustomLog /var/log/simplicity2017/access.log combined
+</VirtualHost>
+
+
+
+<VirtualHost *:80>
+ServerName test-alb-sg-2017-2074858376.us-east-2.elb.amazonaws.com                                                                                                                                          
+DocumentRoot /var/www/html/simplicity2017/wwwroot
+
+<Directory /var/www/html/simplicity2017/wwwroot>
+     Options Indexes FollowSymLinks
+     AllowOverride All
+     Require all granted
+     Header set Access-Control-Allow-Origin "*"
+</Directory>
+
+ErrorLog /var/log/simplicity2017/error.log
+CustomLog /var/log/simplicity2017/access.log combined
+</VirtualHost>
