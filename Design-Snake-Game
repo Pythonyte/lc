@@ -1,7 +1,7 @@
+"""
 https://leetcode.com/problems/design-snake-game/description/
 https://leetcode.com/problems/design-snake-game/discuss/82681/Straightforward-Python-solution-using-deque
-
-
+"""
 class SnakeGame:
     def __init__(self, width: int, height: int, food: List[List[int]]):
         """
