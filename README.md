@@ -64,3 +64,4 @@ This section contains implementation of different Data Structures in Java.
 | 3 | <b>Compressed String Iterator</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/design-compressed-string-iterator)
 | 4 | <b>DataStructure for Insert Delete GetRandom O(1)</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/insert-delete-getrandom-o1)
 | 5 | <b>Stack that supports getMin(): O(1) time/space</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/min-stack)
+| 5 | <b>Skip List Insert/Erase/Search </b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-Skip-List)
