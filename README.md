@@ -43,7 +43,10 @@ This section contains implementation of different Data Structures in Java.
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 0 | <b>Copy List with Random Nodes</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/copy-list-with-random-pointer.py)
-| 1 | <b>Insert element into sorted CLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/insert-into-a-sorted-circular-linked-list.py
+| 1 | <b>Insert element into sorted CLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/insert-into-a-sorted-circular-linked-list.py)
+| 2 | <b>Reverse SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/reverseList.py)
+| 3 | <b>Check if SLL is Palindrome</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/isPalindromeSingleLinkList.py)
+
 # Arrays
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -54,6 +57,7 @@ This section contains implementation of different Data Structures in Java.
 | 4 | <b>Collect Anagrams</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/groupAnagrams.py)
 | 5 | <b>Largest subarray with zero sum</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/find-the-largest-subarray-with-0-sum.py)
 | 6 | <b>Find range of target in sorted array</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/find-first-and-last-position-of-element-in-sorted-array.py)
+| 7 | <b>If sentance is palindrome</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/isPalindrome.py)
 # Trie
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
