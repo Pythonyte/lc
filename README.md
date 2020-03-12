@@ -47,7 +47,7 @@ This section contains implementation of different Data Structures in Java.
 # Arrays
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 0 | <b></b>   |  [View](.py)
+| 0 | <b>All triplets where sum is target</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/3sum.py)
 
 # Trie
 | # | Problem   | Description |
