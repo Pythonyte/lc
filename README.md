@@ -63,7 +63,7 @@ This section contains implementation of different Data Structures in Java.
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 0 | <b>divide two integers without using multiplication, division and mod operator.</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/divide_two_integers.py)
-
+| 1 | <b>Validate IP Adress V4 V6</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/validate_ip_address.py)
 # Design Problems Python
 
 | # | Problem   | Description |
