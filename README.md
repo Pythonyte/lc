@@ -65,13 +65,30 @@ This section contains implementation of different Data Structures in Java.
 | 12 | <b>sprial order matrix</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/spiralOrder.py)
 | 13 | <b>trapping rain water</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/trapping-rain-water.py)
 | 14 | <b>Two sum, when array is sorted</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/twoSum.py)
-| 15 | <b>Validate parentheses</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/valid-parentheses.py)
-
+| 15 | <b>currency coversion</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/conversion_currency.py)
+| 16 | <b>longest-increasing-subsequence</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/lengthOfLIS.py)
+| 17 | <b>letterCombinations</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/letterCombinations.py)
+| 18 | <b>longestCommonSubsequence</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/longestCommonSubsequence.py)
+| 19 | <b>longestPalindromeSubstring</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/longestPalindromeSubstring.py)
+| 20 | <b>minimum-number-platforms-required-railwaybus-station</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/minimum-number-platforms-required-railwaybus-station.py)
+| 21 | <b>number-of-ways-to-calculate-a-target-number-using-only-array-element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/number-of-ways-to-calculate-a-target-number-using-only-array-element.py)
+| 20 | <b></b>   |  [View]()
+| 20 | <b></b>   |  [View]()
+  
+# Stack
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>Validate parentheses</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/valid-parentheses.py)
+| 2 | <b>return min O(1) time space</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/min-stack.py)
+  
+  
 # Math Tricks
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 0 | <b>divide two integers without using multiplication, division and mod operator.</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/divide_two_integers.py)
 | 1 | <b>Validate IP Adress V4 V6</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/validate_ip_address.py)
+
+
 # Design Problems Python
 
 | # | Problem   | Description |
