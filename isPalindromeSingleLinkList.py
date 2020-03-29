@@ -10,7 +10,7 @@ class Solution:
         def helper(node):
             nonlocal root
             if node:
-                if not helper(node.next): return False
+                if helper(node.next) is False: return False
                 if node.val != root.val: return False
                 root = root.next
             return True
