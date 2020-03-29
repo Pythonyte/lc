@@ -60,6 +60,13 @@ This section contains implementation of different Data Structures in Java.
 | 7 | <b>If sentance is palindrome</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/isPalindrome.py)
 | 8 | <b>decode ways of creating string from number </b>   |  [View](https://github.com/Pythonyte/lc/blob/master/decode_ways.py)
 | 9 | <b>Mising ranges in given sorted array </b>   |  [View](https://github.com/Pythonyte/lc/blob/master/missing-ranges.py)
+| 10 | <b>productExceptSelf</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/productExceptSelf.py)
+| 11 | <b>set-matrix-zeroes</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/set-matrix-zeroes.py)
+| 12 | <b>sprial order matrix</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/spiralOrder.py)
+| 13 | <b>trapping rain water</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/trapping-rain-water.py)
+| 14 | <b>Two sum, when array is sorted</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/twoSum.py)
+| 15 | <b>Validate parentheses</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/valid-parentheses.py)
+
 # Math Tricks
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
