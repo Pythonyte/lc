@@ -85,6 +85,17 @@ This section contains implementation of different Data Structures in Java.
 | 1 | <b>Validate parentheses</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/valid-parentheses.py)
 | 2 | <b>return min O(1) time space</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/min-stack.py)
   
+ 
+
+  
+# Graph
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b></b>   |  [View]()
+| 1 | <b></b>   |  [View]()
+| 3 | <b>detect-cycle-in-a-graph</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect-cycle-in-a-graph.py)
+  
+  
   
 # Math Tricks
 | # | Problem   | Description |
