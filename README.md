@@ -37,7 +37,8 @@ This section contains implementation of different Data Structures in Java.
 | 18 | <b>Populate next right pointer in perfect binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/populating-next-right-pointers-in-each-node.py)
 | 19 | <b>Populate next right pointer in unbalanced binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/populating-next-right-pointers-in-each-node-ii.py)
 | 20 | <b>Right View of binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/rightSideView.py)
-
+| 21 | <b>isSymmetricTree</b> | [View](https://github.com/Pythonyte/lc/blob/master/isSymmetricTree.py)
+| 22 | <b>binary_tree_max_path_sum</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/binary_tree_max_path_sum.py)
 
 # LinkList
 | # | Problem   | Description |
@@ -72,7 +73,7 @@ This section contains implementation of different Data Structures in Java.
 | 19 | <b>longestPalindromeSubstring</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/longestPalindromeSubstring.py)
 | 20 | <b>minimum-number-platforms-required-railwaybus-station</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/minimum-number-platforms-required-railwaybus-station.py)
 | 21 | <b>number-of-ways-to-calculate-a-target-number-using-only-array-element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/number-of-ways-to-calculate-a-target-number-using-only-array-element.py)
-| 20 | <b></b>   |  [View]()
+| 22 | <b>Kadane Algo</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kadane_algorithm.py)
 | 20 | <b></b>   |  [View]()
   
 # Stack
