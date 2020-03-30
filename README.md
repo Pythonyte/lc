@@ -92,7 +92,7 @@ This section contains implementation of different Data Structures in Java.
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b></b>   |  [View]()
-| 1 | <b></b>   |  [View]()
+| 2 | <b>DFS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/dfs_graph.py)
 | 3 | <b>detect-cycle-in-a-graph</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect-cycle-in-a-graph.py)
 | 4 | <b>surrounded region</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/surrounded-regions.py)
   
