@@ -39,7 +39,7 @@ This section contains implementation of different Data Structures in Java.
 | 20 | <b>Right View of binary tree</b> | [View](https://github.com/Pythonyte/lc/blob/master/rightSideView.py)
 | 21 | <b>isSymmetricTree</b> | [View](https://github.com/Pythonyte/lc/blob/master/isSymmetricTree.py)
 | 22 | <b>binary_tree_max_path_sum</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/binary_tree_max_path_sum.py)
-
+| 22 | <b>delete node in bst</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/delete-node-in-a-bst.py)
 # LinkList
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
