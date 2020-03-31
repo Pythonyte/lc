@@ -74,8 +74,8 @@ This section contains implementation of different Data Structures in Java.
 | 20 | <b>minimum-number-platforms-required-railwaybus-station</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/minimum-number-platforms-required-railwaybus-station.py)
 | 21 | <b>number-of-ways-to-calculate-a-target-number-using-only-array-element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/number-of-ways-to-calculate-a-target-number-using-only-array-element.py)
 | 22 | <b>Kadane Algo</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kadane_algorithm.py)
-| 20 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
-| 20 | <b></b>   |  [View]()
+| 23 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
+| 24 | <b>Traverse matrix diagonally</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/traverse_matrix_diagonal.py)
 | 20 | <b></b>   |  [View]()
 | 20 | <b></b>   |  [View]()
   
