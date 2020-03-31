@@ -84,8 +84,13 @@ This section contains implementation of different Data Structures in Java.
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Validate parentheses</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/valid-parentheses.py)
 | 2 | <b>return min O(1) time space</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/min-stack.py)
-  
  
+# Heap
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1 | <b>kth-largest-in-stream</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kth-largest-in-stream.py)
+| 20 | <b></b>   |  [View]()
+| 20 | <b></b>   |  [View]()
 
   
 # Graph
