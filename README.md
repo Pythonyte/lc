@@ -78,8 +78,8 @@ This section contains implementation of different Data Structures in Java.
 | 22 | <b>Kadane Algo</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kadane_algorithm.py)
 | 23 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
 | 24 | <b>Traverse matrix diagonally</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/traverse_matrix_diagonal.py)
-| 20 | <b></b>   |  [View]()
-| 20 | <b></b>   |  [View]()
+|  | <b></b>   |  [View]()
+|  | <b></b>   |  [View]()
   
 # Stack
 | # | Problem   | Description |
@@ -92,7 +92,7 @@ This section contains implementation of different Data Structures in Java.
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>kth-largest-in-stream</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kth-largest-in-stream.py)
 | 2 | <b>topKFrequent</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topKFrequent.py)
-| 20 | <b></b>   |  [View]()
+| 3 | <b>maxSlidingWindow</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/maxSlidingWindow.py)
 
   
 # Graph
