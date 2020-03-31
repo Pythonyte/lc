@@ -76,10 +76,10 @@ This section contains implementation of different Data Structures in Java.
 | 20 | <b>minimum-number-platforms-required-railwaybus-station</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/minimum-number-platforms-required-railwaybus-station.py)
 | 21 | <b>number-of-ways-to-calculate-a-target-number-using-only-array-element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/number-of-ways-to-calculate-a-target-number-using-only-array-element.py)
 | 22 | <b>Kadane Algo</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kadane_algorithm.py)
-| 23 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
+| 23 | <b></b>   |  [View]()
 | 24 | <b>Traverse matrix diagonally</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/traverse_matrix_diagonal.py)
-|  | <b></b>   |  [View]()
-|  | <b></b>   |  [View]()
+| 25 | <b>Search in sorted matrix</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/searchMatrix.py)
+
   
 # Stack
 | # | Problem   | Description |
@@ -92,9 +92,9 @@ This section contains implementation of different Data Structures in Java.
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>kth-largest-in-stream</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kth-largest-in-stream.py)
 | 2 | <b>topKFrequent</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topKFrequent.py)
-| 3 | <b>maxSlidingWindow</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/maxSlidingWindow.py)
-
-  
+| 3 | <b>maxSlidingWindow (DEQUE)</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/maxSlidingWindow.py)
+| 4 | <b>mergeKSotedLists</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/mergeKSotedLists.py)
+| 5 | <b>median_of_data_stream</b> | [View](https://github.com/Pythonyte/lc/blob/master/median_of_data_stream.py)
 # Graph
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -102,8 +102,10 @@ This section contains implementation of different Data Structures in Java.
 | 2 | <b>DFS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/dfs_graph.py)
 | 3 | <b>detect-cycle-in-a-graph</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect-cycle-in-a-graph.py)
 | 4 | <b>surrounded region</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/surrounded-regions.py)
-  
-  
+| 5 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
+| 6 | <b>numDistinctIslands.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numDistinctIslands.py)
+
+
 # Math Tricks
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -128,3 +130,8 @@ This section contains implementation of different Data Structures in Java.
 | 10 | <b>Design-AutoSuggest</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-autosuggest.py)
 | 11 | <b>Design-Snake-Game</b>   |  [View](.py)
 
+
+
+|  | <b></b>   |  [View]()
+|  | <b></b>   |  [View]()
+|  | <b></b>   |  [View]()
