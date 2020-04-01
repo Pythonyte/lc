@@ -96,6 +96,9 @@ This section contains implementation of different Data Structures in Java.
 | 3 | <b>maxSlidingWindow (DEQUE)</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/maxSlidingWindow.py)
 | 4 | <b>mergeKSotedLists</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/mergeKSotedLists.py)
 | 5 | <b>median_of_data_stream</b> | [View](https://github.com/Pythonyte/lc/blob/master/median_of_data_stream.py)
+| 6 | <b>HeapSort</b> | [View](https://github.com/Pythonyte/lc/blob/master/heapsort.py)
+
+
 # Graph
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
