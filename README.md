@@ -9,6 +9,7 @@ This section contains implementation of different Data Structures in Java.
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | <b>MaxHeap</b>| [View](https://github.com/Pythonyte/Data-Structure-Algorithms-Python/blob/master/ADT/MaxHeap.py)|
 | <b>MinHeap</b>| [View](https://github.com/Pythonyte/Data-Structure-Algorithms-Python/blob/master/ADT/MinHeap.py)|
+| <b>MaxHeap Optimized</b>| [View](https://github.com/Pythonyte/lc/blob/master/maxheap.py)
 
 # Algorithms Problems Python
 
