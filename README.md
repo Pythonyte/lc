@@ -3,7 +3,7 @@
 This repository is a collection of algorithms, data structures and coding challenges which I've solved over a period of time. The algorithms/solutions are implemented considering efficient Time and Space Complexity approaches. All the solutions are 100% correct and tested against various test cases, unless marked as TODO/InProgress.
 
 
-This section contains implementation of different Data Structures in Java.
+This section contains implementation of different Data Structures in Python.
 
 | Data Structure   | Implementation |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
