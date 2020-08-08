@@ -82,7 +82,7 @@ This section contains implementation of different Data Structures in Python.
 | 24 | <b>Traverse matrix diagonally</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/traverse_matrix_diagonal.py)
 | 25 | <b>Search in sorted matrix</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/searchMatrix.py)
 | 26 | <b>Find_missing_number</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Find_missing_number.py)
-  
+| 27 | <b>trap_water</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/trap_water.py)
 # Stack
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
