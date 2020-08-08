@@ -49,6 +49,7 @@ This section contains implementation of different Data Structures in Python.
 | 2 | <b>Reverse SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/reverseList.py)
 | 3 | <b>Check if SLL is Palindrome</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/isPalindromeSingleLinkList.py)
 | 4 | <b>Swap node in pairs</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/swap-nodes-in-pairs.py)
+| 4 | <b>Detect loop in SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect_loop_in_slinkedlist.py)
 
 
 # Arrays
