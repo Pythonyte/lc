@@ -49,7 +49,7 @@ This section contains implementation of different Data Structures in Python.
 | 2 | <b>Reverse SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/reverseList.py)
 | 3 | <b>Check if SLL is Palindrome</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/isPalindromeSingleLinkList.py)
 | 4 | <b>Swap node in pairs</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/swap-nodes-in-pairs.py)
-| 4 | <b>Detect loop in SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect_loop_in_slinkedlist.py)
+| 5 | <b>Detect loop in SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect_loop_in_slinkedlist.py)
 
 
 # Arrays
@@ -81,7 +81,7 @@ This section contains implementation of different Data Structures in Python.
 | 23 | <b></b>   |  [View]()
 | 24 | <b>Traverse matrix diagonally</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/traverse_matrix_diagonal.py)
 | 25 | <b>Search in sorted matrix</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/searchMatrix.py)
-
+| 26 | <b>Find_missing_number</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Find_missing_number.py)
   
 # Stack
 | # | Problem   | Description |
