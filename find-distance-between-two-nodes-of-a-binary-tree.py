@@ -23,6 +23,23 @@ def LCA(root, n1, n2):
         return root
     return left if left else right
 
+# function to find distance of any node
+# from root
+def findLevelNew(root, data, d, level):
+     
+    # Base case when tree is empty
+    if root is None:
+        return
+ 
+    # Node is found then append level
+    # value to list and return
+    if root.data == data:
+        d.append(level)
+        return
+ 
+    findLevel(root.left, data, d, level + 1)
+    findLevel(root.right, data, d, level + 1)
+    
 def findLevel(root, data):
     # Base case
     if (root == None):
