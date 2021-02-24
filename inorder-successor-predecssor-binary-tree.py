@@ -61,3 +61,26 @@ s.inorderSuccessorPredeccsor(root1, root1)
 # Pred=60 | Node=70 | Succ=None
 # Pred=None | Node=10 | Succ=20
 # Pred=30 | Node=50 | Succ=55
+
+
+# Adding with normal inorder
+    def inorder_successor_predeessor(self, root, data):
+
+        last, succ, pred = None, None, None
+        is_succ = False
+        def helper(root, data):
+            nonlocal last, succ, pred, is_succ
+            if not root: return None
+            helper(root.left, data)
+            if is_succ:
+                succ = root.val
+                is_succ = not is_succ
+            if root.val == data:
+                pred = last
+                is_succ = True
+            last = root.val
+            print(last)
+            helper(root.right, data)
+
+        helper(root, data)
+        return "{} <--- {} --> {}".format(pred, data, succ)
