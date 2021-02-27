@@ -1,5 +1,5 @@
 https://leetcode.com/problems/product-of-array-except-self/description/
-
+#  Please solve it without division and in O(n).
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         length = len(nums)
