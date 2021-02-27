@@ -21,7 +21,8 @@ def maxLen(arr):
           
         # Add the current element to the sum 
         curr_sum += arr[i] 
-  
+        
+        # If first element is zero...
         if arr[i] is 0 and max_len is 0: 
             max_len = 1
   
