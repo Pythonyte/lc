@@ -12,6 +12,9 @@ class Solution:
 
             # index of the last element 
             r = len(nums)-1 
+            
+            # Below condition is only for target = 0, if i is positive no, all possible numbers for l and r will be positive only
+            #which will naver make triplet 0, so break from here
             if nums[i]>0: 
                 break 
             if i>0 and nums[i]==nums[i-1]: 
