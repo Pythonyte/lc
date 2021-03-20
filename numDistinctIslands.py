@@ -64,3 +64,48 @@ class Solution:
 
     When we record exiting the function, they will have the signature [0, 1, 3, 0, 0, 0] and [0, 1, 0, 3, 0, 0] respectively. The 0 basically functioned as an "escape" or "backwards" move when describing the path - it says take the cursor that you have, and go back to the square you were on. We could interpret these path signatures as [SOUTH, EAST, ESCAPE, ESCAPE, ESCAPE], and [SOUTH, ESCAPE, EAST, ESCAPE, ESCAPE] if we wanted to reconstruct the path.
     """
+
+        
+        
+ ## More Optimized
+import collections
+from pprint import pprint
+
+class Solution:
+    def solve(self, board):
+        shape = []
+        def explore(r,c, di='E'):
+            if 0 <= r < len(board) and 0 <= c < len(board[0]) and board[r][c] != 0 and board[r][c] != "V":
+                nonlocal shape
+                board[r][c] = "V"
+                shape.append(di)
+                explore(r-1, c, 'L')
+                explore(r+1, c, 'R')
+                explore(r, c-1, 'U')
+                explore(r, c+1, 'D')
+                #shape.append(di)
+
+        shapes = set()
+        for r in range(len(board)):
+            for c in range(len(board[0])):
+                if board[r][c] != 0 and board[r][c] != "V":
+                    shape = []
+                    explore(r,c)
+                    # print(r,c)
+                    # print("SHAPE=> ", shape)
+                    shapes.add(tuple(shape))
+        return shapes
+
+
+
+
+s = Solution()
+board = [
+    [1,1,0,1],
+    [1,1,0,0],
+    [0,0,1,1],
+    [1,0,1,1]
+]
+shapes = s.solve(board)
+# pprint(board)
+pprint(shapes)
