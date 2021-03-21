@@ -21,7 +21,7 @@ class Solution:
         dq = deque([])
         output = []
           
-        # Use deque here
+        # Use deque here (STORING INDEX ON DEQUE NOT VALUE... REMEMBER IT!!!)
         # Idea is to maintain deque in such a way that
         # 1. always max element is in top (deque[0])
         # 2. if top element is out of window, remove from front of deque (popleft)
