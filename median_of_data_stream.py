@@ -1,6 +1,10 @@
 https://www.youtube.com/watch?v=P63aaiRFECU
 https://leetcode.com/problems/find-median-from-data-stream/description/
-
+"""
+Heap Solution
+MaxHeap to store lower half of the sorted array
+MinHeap to store upper half of the sorted array
+"""
 # class MedianFinder:
 
 #     def __init__(self):
