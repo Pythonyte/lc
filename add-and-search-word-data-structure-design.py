@@ -50,3 +50,78 @@ wd.addWord('sumit')
 wd.addWord('surfing')
 wd.printTrie()
 print('s..it', wd.search('s..it'))
+
+
+
+##### OPTIMIZED 210321
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.isword = False
+
+class WordDictionary:
+    def __init__(self):
+        self.root = TrieNode()
+
+    def add_word(self, word):
+        node = self.root
+        for w in word:
+            if w not in node.children:
+                node.children[w] = TrieNode()
+            node = node.children[w]
+        node.isword = True
+
+    def dfs(self, node, word, resultent):
+        if not word:
+            if node.isword:
+                self.res.append(resultent)
+                return
+        if word[0] == '.':
+            for key, tnode in node.children.items():
+                self.dfs(tnode, word[1:], resultent+key)
+        elif word[0] in node.children:
+            tnode = node.children[word[0]]
+            self.dfs(tnode, word[1:], resultent+word[0])
+
+    def search(self, word):
+        node = self.root
+        self.res = []
+        self.dfs(node, word, '')
+        return self.res
+
+    def print_trie(self, space="", node=None):
+        node = self.root if not node else node
+        for char, tnode, in node.children.items():
+            is_word = '*' if tnode.isword else ''
+            print(space, char, is_word)
+            self.print_trie(space + " ", tnode)
+
+wd = WordDictionary()
+wd.add_word('sumit')
+wd.add_word('ramit')
+wd.add_word('sameer')
+wd.print_trie()
+print(wd.search('..mit'))
+print(wd.search('..mee.'))
+print(wd.search('..mat'))
+
+
+### Output
+ s 
+  u 
+   m 
+    i 
+     t *
+  a 
+   m 
+    e 
+     e 
+      r *
+ r 
+  a 
+   m 
+    i 
+     t *
+['sumit', 'ramit']
+['sameer']
+[]
