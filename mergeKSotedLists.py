@@ -26,3 +26,34 @@ class Solution:
                 heapq.heappush(heap, (node.next.val, index, node.next))
                 
         return head.next
+    
+    
+    import heapq
+    def merge_ksorted_arrays(self, lists):
+        """
+        Heap Node: (value, index, array)
+        :param lists:
+        :return:
+        """
+        heap = ([(array[0], 0, array) for array in lists])
+        heapq.heapify(heap)
+        output = []
+        while heap:
+            value, index, array = heapq.heappop(heap)
+            output.append(value)
+            index_to_push = index + 1
+            if index_to_push < len(array):
+                heapq.heappush(heap, (array[index_to_push], index_to_push, array))
+        return output
+
+
+print(
+    merge_ksorted_arrays(
+        [
+            [6,7,8],
+            [3,4,5,6,7],
+            [0,9,10,11],
+            [16]
+        ]
+    )
+)
