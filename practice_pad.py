@@ -15,3 +15,13 @@ def max_path_sum(node):
     helper(node)
     return max_sum
 
+def validbst(root):
+    def helper(root, start, end):
+        if not root:
+            return True
+        val = root.val
+        if start < val < end:
+            return helper(root.left, start, val) and helper(root.right, val, end)
+        return False
+    import sys
+    return helper(root, -sys.maxsize, sys.maxsize)

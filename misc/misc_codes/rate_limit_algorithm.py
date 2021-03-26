@@ -9,13 +9,9 @@ logging.basicConfig(level=logging.DEBUG,
 class RateLimiter:
     mapping = {}
     def __init__(self, thottling_period, rate_limit):
-        """
-        :param thottling: int time In seconds
-        :param rate_limit: int count
-        """
         self.thottling_period = thottling_period
         self.rate_limit = rate_limit
-        self.sem = threading.Semaphore(1)
+        self.sem = threading.Semaphore()
 
     def calculate_end_time(self, current_time):
         return current_time + timedelta(seconds=self.thottling_period)
