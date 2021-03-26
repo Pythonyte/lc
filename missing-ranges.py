@@ -26,7 +26,6 @@ class Solution:
             # check if list ends but max range is not yet reached
             # last num should not be max range
             # last num should be less than max range
-            if num != upper and num < upper: 
-                val = "{}->{}".format(num+1, upper)
+            if num != upper and num < upper:
                 missing_ranges.append(get_val(num+1, upper))
         return missing_ranges

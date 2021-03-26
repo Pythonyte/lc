@@ -22,6 +22,26 @@ class Solution:
             carry //= 10
         return head.next
             
+# If numbers are in normal order:
+# Need more optimization and not yet completed
+    def addLLOrdered(self, l1, l2):
+        def helper(l1, l2):
+            nonlocal carry, l3
+            if None in (l1, l2):
+                return
+            helper(l1.next, l2.next)
+            carry = l1.val + l2.val + carry
+            l3.next = Node(carry%10)
+            carry = carry//10
+            l3 = l3.next
+
+        l3 = head = Node(-1)
+        carry = 0
+        helper(l1,l2)
+        if carry: l3.next = Node(carry)
+        if head.next:
+            new_head = self.reverselliterative(head.next)
+            return new_head
 
 
 

@@ -101,6 +101,13 @@ This section contains implementation of different Data Structures in Python.
 | 5 | <b>median_of_data_stream</b> | [View](https://github.com/Pythonyte/lc/blob/master/median_of_data_stream.py)
 | 6 | <b>HeapSort</b> | [View](https://github.com/Pythonyte/lc/blob/master/heapsort.py)
 
+# DP
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 0 | <b>Kanpsack</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kanpsack.py)
+| 1 | <b>LIS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/lengthOfLIS.py)
+| 2 | <b>LCS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/longestCommonSubsequence.py)
+| 3 | <b>LPS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/longestPalindromeSubstring.py)
 
 # Graph
 | # | Problem   | Description |
