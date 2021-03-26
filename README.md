@@ -84,7 +84,7 @@ This section contains implementation of different Data Structures in Python.
 | 26 | <b>Find_missing_number</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Find_missing_number.py)
 | 27 | <b>trap_water</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/trap_water.py)
 | 28 | <b>next_greater_element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/next_greater_element.py)
-
+| 29 | <b>smallest_divisible_number</b>   |  [View](https://github.com/Pythonyte/lc/blob/push_new_problems/Smallest_divisible_number.py)
 # Stack
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
