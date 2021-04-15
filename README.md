@@ -118,7 +118,7 @@ This section contains implementation of different Data Structures in Python.
 | 4 | <b>surrounded region</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/surrounded-regions.py)
 | 5 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
 | 6 | <b>numDistinctIslands.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numDistinctIslands.py)
-
+| 7 | <b>topological_sorting.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topological_sorting.py)
 
 # Math Tricks
 | # | Problem   | Description |
