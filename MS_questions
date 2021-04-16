@@ -1,0 +1,55 @@
+Microsoft
+
+1st round: Simple question on topological sorting coded up in 10 min and walked the interviewer through it with some test cases, then the next was asked was on backtracking initially stumbled a bit but the idea clicked me and coded up quickly and walked interviewer through the tests. The interviewer was happy about it. Then he asked me a question on OS, as I knew Microsoft focuses on core CS concepts I did read up on OS but the question asked was something to which I did not know the answer. He then asked another question on OS and the same thing I replied I am not sure of this concept. The interviewer finished the interview and asked if I had any questions for him. I did ask him general questions like how is it like working in Microsoft? how is the work of the team?
+2nd round: This question had based on insertion and deletion on a data structure -> https://leetcode.com/discuss/interview-question/363945/Google-or-Treap. I gave some ideas but it did not work out and we ran out of time.
+3rd round: This was a system design interview. I had not prepared for system design by this time and screwed it up.
+4th round: Hiring manager round. He asked a simple question on String to which I coded up quickly. He then asked about concepts of OS, OOPS, Pointers, References, I did not know much about these. As I don't use all this in my current job and also in my college days even though I read about them but I don't remember them and I did not revise them.
+Result: As expected I was rejected.
+I felt a bit sad but I at least I knew what had gone wrong and what to focus on.
+So I tweaked my plan a bit and added 2 days to study core CS concepts like OS, DB, CN, OOPS, Design Patterns.
+
+
+Microsoft:
+
+1st round: https://leetcode.com/problems/sudoku-solver/. Coded up quickly and completely then the interviewer asked questions on Security which 
+I did not prepare upon. I was broke in the interview itself as and when he asked this question, had my self up and told him some approaches but 
+he was not satisfied and asked another question related to security to which again I gave some answer which he was not satisfied.
+
+2nd round: 3 questions,
+Given an array find the peak element ( peak element is defined as an element that is greater than both elements on either side if they exist). I quickly gave a trivial O(N) solution but he wanted a better solution. I asked if the array was sorted and reverted or some kind of info he said no just given a random array. I thought about it for a time but could not come up with it, he said its ok move on.
+https://leetcode.com/problems/minimum-cost-to-cut-a-stick/ Coded optimally
+One question on the Sliding window, ( not on leetcode) Coded optimally
+All the questions should be coded from scratch including things like taking input and printing output in own IDE and should compile properly the interviewer gave test cases to check the correctness of the program.
+
+Round 1 :
+
+What is a BST
+How will you implement it ?
+Given an ArrayList of numbers, sort the ArrayList and implement it as a Binary Search Tree.
+Given an set of inputs and a regex condition, I was expected to tell the interviewer if the given input was possible with the specified regex condition.
+Round 2 :
+
+Behavioral Questions on my work experience for 35 minutes
+https://leetcode.com/problems/regular-expression-matching/
+Round 3 :
+
+https://leetcode.com/problems/fizz-buzz/
+https://leetcode.com/problems/two-sum/
+Round 4 :
+
+Tell me about yourself - first 10 to 15 minutes.
+https://leetcode.com/problems/longest-palindromic-substring/
+Did the interview quite well except for Round two! Probably didn't get an optimal solution for REGEX.
+Not sure as to why I was rejected. The recruiter said that he can't share specific feedback about the interview.
+
+The team I was interviewed for worked on Data Analysis and they develop tools for Azure Platform I believe.
+
+
+4 rounds: every round started with brief introduction and behaviorial questions
+Design sudoko
+LRU cache and system design tiny url
+swap adjacent elements to get 1's together
+substring without repeating characters
+
+https://leetcode.com/discuss/interview-experience/1114687/Microsoft-or-L61-or-Feb-2021-Reject
+
