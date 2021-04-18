@@ -144,9 +144,6 @@ This section contains implementation of different Data Structures in Python.
 | 9 | <b>Design-Trie</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-Trie.py)
 | 10 | <b>Design-AutoSuggest</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/Design-autosuggest.py)
 | 11 | <b>Design-Snake-Game</b>   |  [View](.py)
-
-
-
-|  | <b></b>   |  [View]()
+| 12 | <b>Design HashMap</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/design_hashmap.py)
 |  | <b></b>   |  [View]()
 |  | <b></b>   |  [View]()
