@@ -85,6 +85,7 @@ This section contains implementation of different Data Structures in Python.
 | 27 | <b>trap_water</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/trap_water.py)
 | 28 | <b>next_greater_element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/next_greater_element.py)
 | 29 | <b>lengthOfLongestSubstring</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/lengthOfLongestSubstring.py)
+| 30 | <b>string-compression</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/string-compression.py)
 
 # Stack
 | # | Problem   | Description |
