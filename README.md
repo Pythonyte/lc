@@ -41,6 +41,8 @@ This section contains implementation of different Data Structures in Python.
 | 21 | <b>isSymmetricTree</b> | [View](https://github.com/Pythonyte/lc/blob/master/isSymmetricTree.py)
 | 22 | <b>binary_tree_max_path_sum</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/binary_tree_max_path_sum.py)
 | 22 | <b>delete node in bst</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/delete-node-in-a-bst.py)
+
+
 # LinkList
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -51,6 +53,8 @@ This section contains implementation of different Data Structures in Python.
 | 4 | <b>Swap node in pairs</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/swap-nodes-in-pairs.py)
 | 5 | <b>Detect loop in SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect_loop_in_slinkedlist.py)
 | 6 | <b>Merge two SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/merge_two_ssll.py)
+| 7 | <b>Add two SLL (reverse / normal)</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/add_two_num_sll.py)
+
 
 # Arrays
 | # | Problem   | Description |
