@@ -50,7 +50,7 @@ This section contains implementation of different Data Structures in Python.
 | 3 | <b>Check if SLL is Palindrome</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/isPalindromeSingleLinkList.py)
 | 4 | <b>Swap node in pairs</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/swap-nodes-in-pairs.py)
 | 5 | <b>Detect loop in SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect_loop_in_slinkedlist.py)
-
+| 6 | <b>Merge two SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/merge_two_ssll.py)
 
 # Arrays
 | # | Problem   | Description |
