@@ -28,4 +28,29 @@ class Solution:
         
     
         
-        
+def mergeTwoArrays(l1, l2):
+    if not l1: return l2
+    if not l2: return l1
+    l3 = []
+    i = j = 0
+    while i < len(l1) and j < len(l2):
+        if l1[i] < l2[j]:
+            temp, i = l1[i], i+1
+        else:
+            temp, j = l2[j], j+1
+        l3.append(temp)
+
+    if i < len(l1):
+        l3.extend(l1[i:])
+
+    if j < len(l2):
+        l3.extend(l2[j:])
+    return l3
+
+print(mergeTwoArrays([], [1]))
+print(mergeTwoArrays([2,5,6], [3,4,8,9]))
+print(mergeTwoArrays([1,2,3,3], [4,5,6]))
+print(mergeTwoArrays([1,2], [1,2,3,3]))
+print(mergeTwoArrays([], []))
+print(mergeTwoArrays([1,2,2,3], []))
+print(mergeTwoArrays([9,10], [1,2]))
