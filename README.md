@@ -55,7 +55,7 @@ This section contains implementation of different Data Structures in Python.
 | 5 | <b>Detect loop in SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect_loop_in_slinkedlist.py)
 | 6 | <b>Merge two SLL</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/merge_two_ssll.py)
 | 7 | <b>Add two SLL (reverse / normal)</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/add_two_num_sll.py)
-
+| 8 | <b>Reverse_Nodes_in_k-Group</b>   |  [View]https://github.com/Pythonyte/lc/blob/master/Reverse_Nodes_in_k-Group.py)
 
 # Arrays
 | # | Problem   | Description |
