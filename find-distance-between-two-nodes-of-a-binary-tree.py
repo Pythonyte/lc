@@ -80,6 +80,42 @@ def findDistance(root, n1, n2):
     else:
         return -1
 
+    
+ #####################################################################################################################
+ #################################### Optimized Soln##################################################################
+ #####################################################################################################################
+
+def find_distance(node, data):
+    distance = 0
+    def helper(node, data, level):
+        if not node:
+            return
+        if node.val == data:
+            nonlocal distance
+            distance = level
+        helper(node.left, data, level+1)
+        helper(node.right, data, level+1)
+    helper(node, data, 0)
+    return distance
+
+def find_lca(root, n1, n2):
+    if not root:
+        return
+    if root.val == n1 or root.val == n2:
+        return root
+    left = find_lca(root.left, n1, n2)
+    right = find_lca(root.right, n1, n2)
+    if left and right:
+        return root
+    return left if left else right
+
+def find_distance_btween_nodes(root, n1, n2):
+    lca = find_lca(root, n1, n2)
+    if lca:
+        d1 = find_distance(lca, n1)
+        d2 = find_distance(lca, n2)
+        return d1 + d2
+    return -1
 
 # Driver program to test above function
 root = Node(1)
