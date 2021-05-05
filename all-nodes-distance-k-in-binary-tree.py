@@ -7,50 +7,43 @@ class TreeNode:
         self.left = None
         self.right = None
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+from collections import defaultdict
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, K: int) -> List[int]:
-        ans = []
-        def dfs(node):
-            # This method returns distance between node and target
-            if node is None:
-                return -1
-            if node is target:
-                subtree_add(node, 0)
-                return 1
-            
-            # Check if target exists in left side, get distance of left child to target in L
-            # if L is K that means root is at K distance from target, append it to ans
-            # else check for root's right child for distance K-L+1 
-            # return L+1 for root's parent..
-            L = dfs(node.left)
-            if L != -1:
-                if L == K:
-                    ans.append(node.val)
-                else:
-                    subtree_add(node.right, L+1)
-                    return L+1
-            
-            R = dfs(node.right)
-            
-            if R != -1:
-                if R == K:
-                    ans.append(node.val)
-                else:
-                    subtree_add(node.left, R+1)
-                    return R+1
-            
-            return -1
         
-        def subtree_add(node, dist):
-            if node is None: 
-                return
-            if dist == K:
-                ans.append(node.val)
-            subtree_add(node.left, dist+1)
-            subtree_add(node.right, dist+1)
+        # Store Undirected Graph for all connected nodes 
+        conn = defaultdict(list)
         
-        dfs(root)
-        return ans
+        def connect(parent, child):
+            if parent and child:
+                conn[parent.val].append(child.val)   
+                conn[child.val].append(parent.val)   
+            if child.left:connect(child, child.left)
+            if child.right:connect(child, child.right)
         
+        connect(None, root)
+        #print(conn)
+        
+        # We got the graph in conn adj list
+        # we have to do level order traversal (BFS) starting from target vertex upto level K
+        output, visited = [], [target.val] 
+        current_level = [target.val]
+        for _ in range(K):
+            new_level = []
+            for node in current_level:
+                for val in conn[node]:
+                    if val not in visited:
+                        new_level.append(val)
+                        visited.append(val)
                 
-                
+            current_level = new_level
+        print(current_level)
+        
+        return current_level
