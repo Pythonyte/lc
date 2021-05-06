@@ -1,4 +1,28 @@
 class Solution:
+    #Most optimized Solution
+    
+    from collections import Counter, defaultdict
+    def topkfreq(arr, k):
+        # Create a dict of lists where key is freq and value is list of items having that freq
+        # Counter builtin provides nums with freq for a list
+        freq_map = defaultdict(list)
+        for item, freq in Counter(arr).items():
+            freq_map[freq].append(item)
+            
+        # We know that max freq of a number is len of inout arr (if all elements of an array are same)
+        # from max length to min length or (n to 0) or (max freq to min freq)
+        # store all lists in output
+        output = []
+        for times in reversed(range(len(arr) + 1)):
+            output.extend(freq_map[times])
+           
+        # return top k elements from arr
+        return output[:k]
+
+    print(topkfreq([1,2,3,4,2,3,4,3,4,4,5],3))
+
+
+
     # Non Pythonic Solution
     def topKFrequentOLD(self, nums: List[int], k: int) -> List[int]:
         def get_val_freq_map(nums):
