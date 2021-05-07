@@ -136,6 +136,16 @@ This section contains implementation of different Data Structures in Python.
 | 1 | <b>Validate IP Adress V4 V6</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/validate_ip_address.py)
 | 2 | <b>Task Scheduler</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/task_scheduler.py)
 
+
+# Sorting Algorithms
+| # | Problem   | Description |
+|---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 0 | <b>Merge Sort</b>   |  [View]()
+| 1 | <b>Quick Sort</b>   |  [View]()
+| 2 | <b>Heap Sort</b>   |  [View]()
+| 3 | <b>External Merge Sort</b>   |  [View]()
+| 4 | <b>Topological Sort</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topological_sorting.py)
+
 # Design Problems Python
 
 | # | Problem   | Description |
