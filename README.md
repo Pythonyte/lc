@@ -130,6 +130,9 @@ This section contains implementation of different Data Structures in Python.
 | 6 | <b>numDistinctIslands.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numDistinctIslands.py)
 | 7 | <b>topological_sorting.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topological_sorting.py)
 | 8 | <b>detect-cycles in a 2d grid</b>   |  [View]((https://github.com/Pythonyte/lc/blob/master/containsCycle_2dgrid.py)
+| 9 | <b>course_schedule_possible</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/course_schedule_possible.py)
+
+
 # Math Tricks
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
