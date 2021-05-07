@@ -123,7 +123,8 @@ This section contains implementation of different Data Structures in Python.
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>BFS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/bfs_graph.py)
 | 2 | <b>DFS</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/dfs_graph.py)
-| 3 | <b>detect-cycle-in-a-graph</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect-cycle-in-a-graph.py)
+| 3 | <b>detect-cycle-in-an-undirected-graph</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/detect-cycle-in-a-graph.py)
+| 3 | <b>detect-cycle-in-an-directed-graph</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topological_sorting.py)
 | 4 | <b>surrounded region</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/surrounded-regions.py)
 | 5 | <b>Number of islands</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numIslands.py)
 | 6 | <b>numDistinctIslands.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/numDistinctIslands.py)
