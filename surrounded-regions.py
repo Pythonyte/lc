@@ -27,3 +27,41 @@ class Solution:
                     board[r][c] = "X"
                 elif board[r][c] == "D":
                     board[r][c] = "O"
+
+                    
+########################################################################################
+############################# Recursive Solution  ######################################
+########################################################################################
+
+class Solution:
+    def solve(self, board: List[List[str]]) -> None:
+        """
+        Do not return anything, modify board in-place instead.
+        """
+        
+        def explore(row, col):
+            if 0 <= row < len(board) and 0 <= col < len(board[0]) and board[row][col] == "O":
+                board[row][col] = "D"
+                explore(row+1, col)
+                explore(row-1, col)
+                explore(row, col+1)
+                explore(row, col-1)
+                
+                    
+        
+        # Put all zeros in queue which are in the borders
+        for row in range(len(board)):
+            for col in range(len(board[0])):
+                if (row in [0, len(board)-1] or col in [0, len(board[0])-1]) and board[row][col] == "O":
+                    explore(row, col)
+        
+              
+        for row in range(len(board)):
+            for col in range(len(board[0])):
+                    if board[row][col] == "O":
+                        board[row][col] = 'X'
+        
+                    if board[row][col] == "D":
+                        board[row][col] = 'O'
+        
+        return board
