@@ -6,6 +6,61 @@ https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
 from collections import defaultdict
 
 
+# https://www.geeksforgeeks.org/topological-sorting/
+# Python program to print DFS traversal for complete graph
+from collections import defaultdict
+
+
+# This class represents a directed graph using adjacency
+# list representation
+from collections import defaultdict, deque
+class Graph:
+    def __init__(self):
+       self.graph = defaultdict(list)
+
+    def addEdge(self, u, v):
+        self.graph[u].append(v)
+        self.graph[v].append(u)   
+
+    def detect_cycle_in_undirected_graph_util(self, visited, parent=None, vertex=None):
+        visited[vertex] = True
+        for v in self.graph[vertex]:
+            if visited[v] == False:
+                if self.detect_cycle_in_undirected_graph_util(visited, parent=vertex, vertex=v):
+                    return True
+            elif parent != v:
+                return True
+
+    def detect_cycle_in_undirected_graph(self):
+        visited = {u:False for u in self.graph}
+        for u in self.graph:
+            if visited[u] == False:
+                if self.detect_cycle_in_undirected_graph_util(visited, parent=-1, vertex=u):
+                    return True
+        return False
+
+
+if __name__ == '__main__':
+    # Driver Code
+    g = Graph()
+    g.addEdge(5, 2)
+    g.addEdge(5, 0)
+    g.addEdge(4, 0)
+    g.addEdge(4, 1)
+    g.addEdge(2, 3)
+    g.addEdge(3, 1)
+    #print(g.topological_sorting_dfs_approach())
+    # g.addEdge(1, 3)
+    #print(g.topological_sorting_dfs_approach())
+    #print(g.topological_sorting_indigree_approach())
+    print(g.detect_cycle_in_undirected_graph())
+
+
+#####################################################################################################################
+#####################################################################################################################
+#####################################################################################################################
+
+
 class Graph():
     def __init__(self, vertices):
         self.graph = defaultdict(list)
