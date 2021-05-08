@@ -2,6 +2,65 @@
 50.  Design Range set data structure which support 2 operations – AddInRangeSet and SearchInRangeSet
 https://leetcode.com/problems/add-and-search-word-data-structure-design/description/
 """
+#################### MORE OPTIMIZED SOLUTION #############################
+from collections import defaultdict
+
+class TrieNode:
+    def __init__(self):
+        self.children = defaultdict(TrieNode)
+        self.isword = False
+    
+class WordDictionary:
+
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.root = TrieNode()
+
+    def addWord(self, word: str) -> None:
+        if not word: 
+            return Node
+        node = self.root
+        for w in word:
+            node = node.children[w]
+        node.isword = True
+
+    def search(self, word: str) -> bool:
+        def dfs(node, word):
+            if not word:
+                if node.isword:
+                    nonlocal res
+                    res = True
+                return
+            
+            char = word[0]     
+            if word[0] == '.':
+                for child in node.children.values():
+                    dfs(child, word[1:])
+            else:
+                node = node.children.get(char)
+                if not node:
+                    return
+                dfs(node, word[1:])
+            
+        res = False
+        dfs(self.root, word)
+        return res
+                
+
+
+# Your WordDictionary object will be instantiated and called as such:
+# obj = WordDictionary()
+# obj.addWord(word)
+# param_2 = obj.search(word)
+
+
+#####################################################################################
+#####################################################################################
+
+
+
 class TrieNode():
     def __init__(self):
         self.children = {}
