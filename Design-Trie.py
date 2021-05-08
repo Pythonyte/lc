@@ -35,6 +35,15 @@ class Trie():
         else:
             return True
 
+    def printTrie(self, node=None, space=" "):
+        node = self.root if not node else node
+        for idx, tnode in enumerate(node.children):
+            if tnode:
+                # Printing tnode's isword because, at idx index of children array, there is tnode
+                # which is actually Trinode for chr(idx)
+                print("{} {} {}".format(space, chr(idx), tnode.isword))
+                self.printTrie(tnode, space + " ")
+
 
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
