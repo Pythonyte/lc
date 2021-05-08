@@ -1,3 +1,51 @@
+
+# Optimized Simple Solution:
+class TrieNode():
+    def __init__(self):
+        self.children = collections.defaultdict(TrieNode)
+        self.isWord = False
+    
+class Trie():
+    def __init__(self):
+        self.root = TrieNode()
+    
+    def insert(self, word):
+        node = self.root
+        for w in word:
+            node = node.children[w]
+        node.isWord = True
+    
+    def search(self, word):
+        node = self.root
+        for w in word:
+            node = node.children.get(w)
+            if not node:
+                return False
+        return node.isWord          
+
+    def startsWith(self, prefix: str) -> bool:
+        """
+        Returns if there is any word in the trie that starts with the given prefix.
+        """
+        node = self.root
+        for w in prefix:
+            node = node.children.get(w)
+            if not node:
+                return False
+        else:
+            return True
+
+
+# Your Trie object will be instantiated and called as such:
+# obj = Trie()
+# obj.insert(word)
+# param_2 = obj.search(word)
+# param_3 = obj.startsWith(prefix)
+
+
+
+#################################################################################################################################
+############################################ OLD Soln (Avoid) #################################################
 class TrieNode():
     def __init__(self):
         self.children = [None]*123
@@ -74,46 +122,3 @@ print(t.search_word('msss'))
 
 
 
-
-# Optimized Simple Solution:
-class TrieNode():
-    def __init__(self):
-        self.children = collections.defaultdict(TrieNode)
-        self.isWord = False
-    
-class Trie():
-    def __init__(self):
-        self.root = TrieNode()
-    
-    def insert(self, word):
-        node = self.root
-        for w in word:
-            node = node.children[w]
-        node.isWord = True
-    
-    def search(self, word):
-        node = self.root
-        for w in word:
-            node = node.children.get(w)
-            if not node:
-                return False
-        return node.isWord          
-
-    def startsWith(self, prefix: str) -> bool:
-        """
-        Returns if there is any word in the trie that starts with the given prefix.
-        """
-        node = self.root
-        for w in prefix:
-            node = node.children.get(w)
-            if not node:
-                return False
-        else:
-            return True
-
-
-# Your Trie object will be instantiated and called as such:
-# obj = Trie()
-# obj.insert(word)
-# param_2 = obj.search(word)
-# param_3 = obj.startsWith(prefix)
