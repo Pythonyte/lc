@@ -91,15 +91,15 @@ This section contains implementation of different Data Structures in Python.
 | 28 | <b>next_greater_element</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/next_greater_element.py)
 | 29 | <b>lengthOfLongestSubstring</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/lengthOfLongestSubstring.py)
 | 30 | <b>string-compression</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/string-compression.py)
-| 31 | <b>Fisrt missing +ve</b> | [View](https://github.com/Pythonyte/lc/blob/master/firstMissingPositive.py)
-
+| 31 | <b>First missing +ve</b> | [View](https://github.com/Pythonyte/lc/blob/master/firstMissingPositive_Final.py)
+| 32 | <b>merge-intervals</b> | [View](https://github.com/Pythonyte/lc/blob/master/merge-intervals.py)
 
 # Stack
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1 | <b>Validate parentheses</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/valid-parentheses.py)
 | 2 | <b>return min O(1) time space</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/min-stack.py)
- 
+| 3 | <b>valid-parenthesis-string</b>   |  [View]( https://github.com/Pythonyte/lc/blob/master/valid-parenthesis-string.py)
 # Heap
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ This section contains implementation of different Data Structures in Python.
 | 7 | <b>topological_sorting.py</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/topological_sorting.py)
 | 8 | <b>detect-cycles in a 2d grid</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/containsCycle_2dgrid.py)
 | 9 | <b>course_schedule_possible</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/course_schedule_possible.py)
-
+| 10 | <b>kill_process</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/kill_process.py)
 
 # Math Tricks
 | # | Problem   | Description |
