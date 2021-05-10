@@ -93,7 +93,7 @@ This section contains implementation of different Data Structures in Python.
 | 30 | <b>string-compression</b>   |  [View](https://github.com/Pythonyte/lc/blob/master/string-compression.py)
 | 31 | <b>First missing +ve</b> | [View](https://github.com/Pythonyte/lc/blob/master/firstMissingPositive_Final.py)
 | 32 | <b>merge-intervals</b> | [View](https://github.com/Pythonyte/lc/blob/master/merge-intervals.py)
-| 33 | <b>smallestDivisor</b> | [(https://github.com/Pythonyte/lc/blob/master/smallestDivisor.py)
+| 33 | <b>smallestDivisor</b> | [View](https://github.com/Pythonyte/lc/blob/master/smallestDivisor.py)
 # Stack
 | # | Problem   | Description |
 |---|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
